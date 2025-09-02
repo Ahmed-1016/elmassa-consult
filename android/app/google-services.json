@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "165315212535",
+    "project_id": "el-massa-consult",
+    "storage_bucket": "el-massa-consult.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165315212535:android:612a01df1bbb9015ad4ff2",
+        "android_client_info": {
+          "package_name": "com.example.elmassa_consult"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165315212535-gdtf9t2719dalm6fcsehteoa327nolla.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.elmassa_consult",
+            "certificate_hash": "8d74c8cfed887283e07d1a5936906bc0da42f843"
+          }
+        },
+        {
+          "client_id": "165315212535-kg44vkc3f40086shr3tjnp0j5an6p8b9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-W3esuAe7NPBJpIfctAd-fbYTw_5CQbc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "100284679774361778666",
+              "client_type": 3
+            },
+            {
+              "client_id": "165315212535-1u90ugsof0l83inje369s3ehebq6lhok.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.elmassaConsultSite"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

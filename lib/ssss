@@ -1,0 +1,945 @@
+  "submodel": {
+                "name": "NewForm1",
+                "editable": true,"tabs":[                       
+{
+                        
+"name": "NewTabPage1","editable": true,"visible": true, "groups": 
+
+
+[
+{ "name": "NewGroup1","editable": true,"visible": true, "fields":[
+
+
+//---------------------------------------------------------------------------
+
+  {
+   "fields":[
+            {"datatype": "String","value": "25-2501-0-00000027410","listofvalues": null,"required": false,"maxlength": null,"validation": null,"validationmessage": null,"isremotevalidation": false,"widget": "TextField","actions": [],"name": "requestnumber","label": "رقم الطلب","editable": false,"visible": true,"scripts": {}
+            }, 
+            {"datatype": "Number","value": "161818","listofvalues": null,"required": false,"maxlength": null,"validation": null,"validationmessage": null,"isremotevalidation": false,"widget": "TextField","actions": [],"name": "id_shippingorder","label": "مسلسل طلب التعديل","editable": false,"visible": true,"scripts": {}
+            }
+         ],
+         "name": "NewSingleRow1",
+         "label": "NewSingleRow1",
+         "editable": true,
+         "visible": true,
+         "scripts": {}
+         
+   },
+
+
+//---------------------------------------------------------------------------
+
+
+   {"datatype": "String","value": "تعديل بـــ الاحداثيات + رقم العقار + العنوان ","listofvalues": null,"required": false,"maxlength": null,"validation": null,"validationmessage": null,"isremotevalidation": false,"widget": "TextArea","actions": [],"name": "editcertificateinformation","label": "التعديل","editable": false,"visible": true,"scripts": {}}, 
+  
+  
+//---------------------------------------------------------------------------  
+  
+  
+   {"idfield": null,"data": {"totalrowcount": 2,"pagesize": 15,"columns":
+    [
+    {"name": "id_shippingorder","label": "المسلسل","datatype": "Number","widget": "TextField"}, 
+    {"name": "editcertificateinformation","label": "التعديل المطلوب","datatype": "String","widget": "TextField"}, 
+    {"name": "addeddate","label": "تاريخ تسجيل الطلب","datatype": "String","widget": "TextField"}, 
+    {"name": "print_statuss","label": "حالة الطباعة","datatype": "String","widget": "TextField"}, 
+    {"name": "statuss","label": "الحالة التعديل","datatype": "String","widget": "TextField"}, 
+    {"name": "status_date","label": "تاريخ الارسال","datatype": "Datetime","widget": "TextField"}
+    ],
+        "rows":
+    [
+    {
+         "fields": {
+         "id_shippingorder": "125689",
+         "requestid": 26252,
+         "requestnumber": "25-2501-0-00000027410",
+         "name": "مصطفى ابراهيم مصطفى على ",
+         "company_id": 48,
+         "paymenttime": "2023-08-01T09:58:49.963Z",
+         "paidstatus": "مدفوع",
+         "numberofcopies": 1.0,
+         "extracopiesprice": 250.0,
+         "orderstatus": 1,
+         "editcertificateinformation": "تعديل بــ وصف المبنى : الدور الثالث فقط ",
+         "edit_status": "تعديل",
+         "companyname": "edgeCo4",
+         "comment": "تم التعديل بناء على التواصل مع المحامى\n",
+         "comment_time": "2023-08-16T07:55:28.944718Z",
+         "status": 3,
+         "edit_employee": null,
+         "done": "تم التوصيل",
+         "statuss": "مقبول",
+         "status_date": "",
+         "print_status": 1,
+         "print_statuss": "تم الطباعة",
+         "print_date": "2023-08-16T00:00:00Z",
+         "recert": 1,
+         "recertt": "شحن",
+         "tofedex": "2024-03-15T00:00:00Z",
+         "unittype": "مبنى",
+         "overlap_status": "0",
+         "overlap_statuss": "لا يوجد تداخل",
+         "request_count": 2
+         },
+         "actions": []
+    }, 
+    {
+         "fields": {
+         "id_shippingorder": "161818",
+         "requestid": 26252,
+         "requestnumber": "25-2501-0-00000027410",
+         "name": "مصطفى ابراهيم مصطفى على ",
+         "company_id": 48,
+         "paymenttime": "2023-11-30T09:04:20.106Z",
+         "paidstatus": "مدفوع",
+         "numberofcopies": 1.0,
+         "extracopiesprice": 250.0,
+         "orderstatus": 1,
+         "editcertificateinformation": "تعديل بـــ الاحداثيات + رقم العقار + العنوان ",
+         "edit_status": "تعديل",
+         "companyname": "edgeCo4",
+         "comment": "السراج اتغير عشان كان معموله GIS غلط و واخد المبنى المجاور ليه \nفي طلبين جداد في نفس العقار واخدين السراج الجديد (عويــــن)",
+         "comment_time": "2025-05-31T10:20:07.647664Z",
+         "status": 31,
+         "edit_employee": "عائشة جميل",
+         "done": "تم التوصيل",
+         "statuss": "مرفوض للشركات",
+         "status_date": "2025-04-27T21:00:00Z",
+         "print_status": null,
+         "print_statuss": "لم يتم الطباعة",
+         "print_date": null,
+         "recert": null,
+         "recertt": "لم يتم الشحن",
+         "tofedex": null,
+         "unittype": "مبنى",
+         "overlap_status": "0",
+         "overlap_statuss": "لا يوجد تداخل",
+         "request_count": 2
+         },
+         "actions": []
+    }
+    ]
+
+
+   },
+
+       "pagestate": {
+                                    "Page": 1,
+                                    "Sort": []
+                                },
+       "selectionmode": "None",
+       "hasrowactions": false,
+       "datatype": "String",
+       "value": "",
+       "required": false,
+       "maxlength": null,
+       "validation": null,
+       "validationmessage": null,
+       "isremotevalidation": false,
+       "widget": "Table",
+       "actions": [],
+       "name": "السجل",
+       "label": "السجل",
+       "editable": true,
+       "visible": true,
+       "scripts": {}
+   },
+
+//---------------------------------------------------------------------------   
+                            
+{"datatype": "Number","value": "31","listofvalues": {"fieldnames": ["Key", "Value"],"items": [{"fields": {"Key": "22","Value": "تم الارسال من الشركه"}}]}
+    ,"required": false,"maxlength": null,"validation": null,"validationmessage": null,"isremotevalidation": false
+    }
+  ]
+"required": false,
+"maxlength": null,
+"validation": null,
+"validationmessage": null,
+"isremotevalidation": false,
+"widget": "Radio",
+"actions": [],
+"name": "status",
+"label": "الحالة التعديل",
+"editable": true,
+"visible": true,
+"scripts": {}
+},               
+                            
+                           
+                            
+                            
+                            
+                            
+                            
+{
+"datatype": "String",
+"value": "",
+"listofvalues": null,
+"required": false,
+"maxlength": null,
+"validation": null,
+"validationmessage": null,
+"isremotevalidation": false,
+"widget": "TextArea",
+"actions": [],
+"name": "comment_send",
+"label": "سبب الارسال الي الشركه",
+"editable": false,
+"visible": false,
+"scripts": {
+"visible": "IG.eval(this.form.getItemById('status').value() === '1' || this.form.getItemById('status').value() === '22' || this.form.getItemById('status').value() === '31' )"
+}
+}, 
+
+
+
+
+
+
+{"datatype": "String","value": "لا يتم تسليم الشهاده ف حالة تعديل رقم العقار طبقا لاخر للتعليمات","listofvalues": null,"required": false,"maxlength": null,"validation": null,"validationmessage": null,"isremotevalidation": false,"widget": "TextArea","actions": [],"name": "receive_comment","label": "تعليق الشركه علي التعديل","editable": true,"visible": true,"scripts": {}
+},
+
+
+
+{"multiple": false,"fileextension": "jpg,png","datatype": "File","value": "","listofvalues": null,"required": false,"maxlength": null,"validation": null,"validationmessage": null,"isremotevalidation": false,"widget": "FilePicker","actions": [],"name": "attach","label": "صورة الرفض","editable": true,"visible": true,"scripts": {}
+}
+],
+"actions": [],
+"scripts": {}
+}, 
+
+
+
+{
+ 
+ "name": "NewGroup5","editable": true,"visible": true,"fields": 
+    [
+    {"multiple": false,"fileextension": "jpg,png","datatype": "File","value": "","listofvalues": null,"required": false,"maxlength": null,"validation": null,"validationmessage": null,"isremotevalidation": false,"widget": "FilePicker","actions": [],"name": "attach","label": "صورة الرفض","editable": true,"visible": true,"scripts": {}
+    }
+    ],
+    "actions": [],
+    "scripts": {}
+}
+
+
+
+
+ ],
+ "actions": [],
+ "scripts": {}
+
+
+ },
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ {"name": "NewTabPage2","editable": true,"visible": true,"groups": 
+ [
+    {
+        "name": "NewGroup2","editable": false,"visible": true,"fields": 
+ [
+    {"idfield": null,"data": {"totalrowcount": 14,"pagesize": 15,"columns": [{"name": "requestnumber","label": "رقم الطلب","datatype": "String","widget": "TextField"}, {"name": "comment","label": "تعديل الاداره","datatype": "String","widget": "TextField"}, {"name": "id_shippingorder","label": "مسلسل التعديل","datatype": "String","widget": "TextField"}, 
+ {"name": "comment_time","label": "وقت الاضافه","datatype": "String","widget": "TextField"}],"rows": 
+ [
+    {
+        "fields": {"id": 30619,"requestnumber": "25-2501-0-00000027410","sender": null,"id_shippingorder": "161818","user_name": "3ween","comment": "مطلوب استلام الشهادة القديمة من المواطن بسبب تغيير رقم العقار و السراج والإحداثيات","comment_time": "7/14/2024 1:36:56 PM","refusecount": null},"actions": []
+                                    }, {
+                                        "fields": {
+                                            "id": 13962,
+                                            "requestnumber": "25-2501-0-00000027410",
+                                            "sender": null,
+                                            "id_shippingorder": "161818",
+                                            "user_name": "mohab",
+                                            "comment": "مبنكتبش اسامي في حدود المبني و الشركه تاكد علي اللوكيشن",
+                                            "comment_time": "5/4/2024 8:55:35 AM",
+                                            "refusecount": 5
+                                        },
+                                        "actions": []
+                                    }, {
+                                        "fields": {
+                                            "id": 14175,
+                                            "requestnumber": "25-2501-0-00000027410",
+                                            "sender": null,
+                                            "id_shippingorder": "161818",
+                                            "user_name": "alisalama",
+                                            "comment": "مبنكتبش اسامي في حدود المبني و الشركه تاكد علي اللوكيشنيرجي توجيه ملف الكاد( برجاء عدم تكرار الكومنت والرد عليه )",
+                                            "comment_time": "5/4/2024 3:58:27 PM",
+                                            "refusecount": 5
+                                        },
+                                        "actions": []
+                                    }, {
+                                        "fields": {
+                                            "id": 14440,
+                                            "requestnumber": "25-2501-0-00000027410",
+                                            "sender": null,
+                                            "id_shippingorder": "161818",
+                                            "user_name": "esraahamdy",
+                                            "comment": "برجاء توحيد البيانات الوصفية للحدود فى جميع طلبات العقار 25-2501-0-00000152036 - 25-2501-0-00000152040",
+                                            "comment_time": "5/7/2024 1:20:57 PM",
+                                            "refusecount": 5
+                                        },
+                                        "actions": []
+                                    }, {
+                                        "fields": {
+                                            "id": 15364,
+                                            "requestnumber": "25-2501-0-00000027410",
+                                            "sender": null,
+                                            "id_shippingorder": "161818",
+                                            "user_name": "msdmaher",
+                                            "comment": "برجاء توحيد البيانات الوصفية للحدود فى جميع طلبات العقار 25-2501-0-00000152036 - 25-2501-0-00000152040",
+                                            "comment_time": "5/9/2024 2:40:39 PM",
+                                            "refusecount": 5
+                                        },
+                                        "actions": []
+                                    }, {
+                                        "fields": {
+                                            "id": 15568,
+                                            "requestnumber": "25-2501-0-00000027410",
+                                            "sender": null,
+                                            "id_shippingorder": "161818",
+                                            "user_name": "mohab",
+                                            "comment": "ممنوع تغيير لوكيشن العقار ",
+                                            "comment_time": "5/12/2024 9:22:35 AM",
+                                            "refusecount": 5
+                                        },
+                                        "actions": []
+                                    }, {
+                                        "fields": {
+                                            "id": 86140,
+                                            "requestnumber": "25-2501-0-00000027410",
+                                            "sender": null,
+                                            "id_shippingorder": "161818",
+                                            "user_name": "Aisha",
+                                            "comment": "في حاله انه لا يحتاج التعديل يتم تعذر الطلب  وارجع بيانات الطلب القديم",
+                                            "comment_time": "1/29/2025 2:34:22 PM",
+                                            "refusecount": null
+                                        },
+                                        "actions": []
+                                    }, {
+                                        "fields": {
+                                            "id": 101710,
+                                            "requestnumber": "25-2501-0-00000027410",
+                                            "sender": null,
+                                            "id_shippingorder": "161818",
+                                            "user_name": "Aisha",
+                                            "comment": "برجاء تعديل اسم الشارع طبقا للتعليمات الجديده",
+                                            "comment_time": "3/27/2025 1:20:13 PM",
+                                            "refusecount": null
+                                        },
+                                        "actions": []
+                                    }, {
+                                        "fields": {
+                                            "id": 107462,
+                                            "requestnumber": "25-2501-0-00000027410",
+                                            "sender": null,
+                                            "id_shippingorder": "161818",
+                                            "user_name": "Aisha",
+                                            "comment": "برجاء تعديل رقم العقار طبقا للعقد المرفق وطبقا للطلبات علي نفس القعار والتاكد مع العميل",
+                                            "comment_time": "4/19/2025 11:21:58 AM",
+                                            "refusecount": null
+                                        },
+                                        "actions": []
+                                    }, {
+                                        "fields": {
+                                            "id": 109116,
+                                            "requestnumber": "25-2501-0-00000027410",
+                                            "sender": null,
+                                            "id_shippingorder": "161818",
+                                            "user_name": "Aisha",
+                                            "comment": "",
+                                            "comment_time": "4/23/2025 4:11:33 PM",
+                                            "refusecount": null
+                                        },
+                                        "actions": []
+                                    }, {
+                                        "fields": {
+                                            "id": 110682,
+                                            "requestnumber": "25-2501-0-00000027410",
+                                            "sender": null,
+                                            "id_shippingorder": "161818",
+                                            "user_name": "alisalama",
+                                            "comment": "في حاله انه لا يحتاج التعديل يتم تعذر الطلب وارجع بيانات الطلب القديم\t",
+                                            "comment_time": "4/28/2025 4:55:16 PM",
+                                            "refusecount": null
+                                        },
+                                        "actions": []
+                                    }, {
+                                        "fields": {
+                                            "id": 111914,
+                                            "requestnumber": "25-2501-0-00000027410",
+                                            "sender": null,
+                                            "id_shippingorder": "161818",
+                                            "user_name": "Aisha",
+                                            "comment": "برجاء استلام الشهاداه القديمه من المواطن ",
+                                            "comment_time": "4/30/2025 2:51:15 PM",
+                                            "refusecount": null
+                                        },
+                                        "actions": []
+                                    }, {
+                                        "fields": {
+                                            "id": 118304,
+                                            "requestnumber": "25-2501-0-00000027410",
+                                            "sender": null,
+                                            "id_shippingorder": "161818",
+                                            "user_name": "Aisha",
+                                            "comment": "برجاء ارسال ارسال صور علي جوجل ايرث توضح تحديد المبني ومعرفه موقف الطلبات علي نفس العقار من الاشهار25-2501-0-00000152036-25-2501-0-00000152040",
+                                            "comment_time": "5/31/2025 10:20:04 AM",
+                                            "refusecount": null
+                                        },
+                                        "actions": []
+                                    }, {
+                                        "fields": {
+                                            "id": 118305,
+                                            "requestnumber": "25-2501-0-00000027410",
+                                            "sender": null,
+                                            "id_shippingorder": "161818",
+                                            "user_name": "Aisha",
+                                            "comment": "برجاء ارسال ارسال صور علي جوجل ايرث توضح تحديد المبني ومعرفه موقف الطلبات علي نفس العقار من الاشهار25-2501-0-00000152036-25-2501-0-00000152040",
+                                            "comment_time": "5/31/2025 10:20:07 AM",
+                                            "refusecount": null
+                                        },
+                                        "actions": []
+                                    }]
+                                },
+                                "pagestate": {
+                                    "Page": 1,
+                                    "Sort": []
+                                },
+                                "selectionmode": "None",
+                                "hasrowactions": false,
+                                "datatype": "String",
+                                "value": "",
+                                "required": false,
+                                "maxlength": null,
+                                "validation": null,
+                                "validationmessage": null,
+                                "isremotevalidation": false,
+                                "widget": "Table",
+                                "actions": [],
+                                "name": "NewTable1",
+                                "label": "سجل التعليقات للاداره",
+                                "editable": true,
+                                "visible": true,
+                                "scripts": {}
+                            }],
+                            "actions": [],
+                            "scripts": {}
+                        }, 
+                        
+                        
+
+
+
+
+                        {
+                            "name": "NewGroup4",
+                            "editable": true,
+                            "visible": true,
+                            "fields": [{
+                                "idfield": null,
+                                "data": {
+                                    "totalrowcount": 13,
+                                    "pagesize": 15,
+                                    "columns": [{
+                                        "name": "requestnumber",
+                                        "label": "رقم الطلب",
+                                        "datatype": "String",
+                                        "widget": "TextField"
+                                    }, {
+                                        "name": "id_shippingorder",
+                                        "label": "المسلسل",
+                                        "datatype": "String",
+                                        "widget": "TextField"
+                                    }, {
+                                        "name": "comment_time",
+                                        "label": "الوقت",
+                                        "datatype": "String",
+                                        "widget": "TextField"
+                                    }, {
+                                        "name": "comment",
+                                        "label": "التعليق",
+                                        "datatype": "String",
+                                        "widget": "TextField"
+                                    }],
+                                    "rows": [{
+                                        "fields": {
+                                            "id": 96,
+                                            "comment": "مبنكتبش اسامي في حدود المبني و الشركه تاكد علي اللوكيشن",
+                                            "comment_time": "5/4/2024 9:32:03 AM",
+                                            "requestnumber": "25-2501-0-00000027410",
+                                            "sender": null,
+                                            "id_shippingorder": "161818",
+                                            "user_name": "m_ashraf"
+                                        },
+                                        "actions": []
+                                    }, {
+                                        "fields": {
+                                            "id": 124,
+                                            "comment": "مبنكتبش اسامي في حدود المبني و الشركه تاكد علي اللوكيشن\nيرجي توجيه ملف الكاد",
+                                            "comment_time": "5/4/2024 11:43:53 AM",
+                                            "requestnumber": "25-2501-0-00000027410",
+                                            "sender": null,
+                                            "id_shippingorder": "161818",
+                                            "user_name": "m_ashraf"
+                                        },
+                                        "actions": []
+                                    }, {
+                                        "fields": {
+                                            "id": 169,
+                                            "comment": "مبنكتبش اسامي في حدود المبني و الشركه تاكد علي اللوكيشن\nيرجي توجيه ملف الكاد",
+                                            "comment_time": "5/4/2024 2:00:04 PM",
+                                            "requestnumber": "25-2501-0-00000027410",
+                                            "sender": null,
+                                            "id_shippingorder": "161818",
+                                            "user_name": "m_ashraf"
+                                        },
+                                        "actions": []
+                                    }, {
+                                        "fields": {
+                                            "id": 219,
+                                            "comment": "مبنكتبش اسامي في حدود المبني و الشركه تاكد علي اللوكيشنيرجي توجيه ملف الكاد( برجاء عدم تكرار الكومنت والرد عليه )\nبرجاء مراجعة البيانات جيدا قبل الرد .",
+                                            "comment_time": "5/4/2024 4:05:43 PM",
+                                            "requestnumber": "25-2501-0-00000027410",
+                                            "sender": null,
+                                            "id_shippingorder": "161818",
+                                            "user_name": "m_ashraf"
+                                        },
+                                        "actions": []
+                                    }, {
+                                        "fields": {
+                                            "id": 813,
+                                            "comment": "برجاء توحيد البيانات الوصفية للحدود فى جميع طلبات العقار 25-2501-0-00000152036 - 25-2501-0-00000152040",
+                                            "comment_time": "5/8/2024 1:05:23 PM",
+                                            "requestnumber": "25-2501-0-00000027410",
+                                            "sender": null,
+                                            "id_shippingorder": "161818",
+                                            "user_name": "m_abdalnabe"
+                                        },
+                                        "actions": []
+                                    }, {
+                                        "fields": {
+                                            "id": 896,
+                                            "comment": "برجاء توحيد البيانات الوصفية للحدود فى جميع طلبات العقار 25-2501-0-00000152036 - 25-2501-0-00000152040",
+                                            "comment_time": "5/8/2024 3:10:09 PM",
+                                            "requestnumber": "25-2501-0-00000027410",
+                                            "sender": null,
+                                            "id_shippingorder": "161818",
+                                            "user_name": "a_hussien"
+                                        },
+                                        "actions": []
+                                    }, {
+                                        "fields": {
+                                            "id": 4966,
+                                            "comment": "برجاء توحيد البيانات الوصفية للحدود فى جميع طلبات العقار 25-2501-0-00000152036 - 25-2501-0-00000152040",
+                                            "comment_time": "5/27/2024 3:51:18 PM",
+                                            "requestnumber": "25-2501-0-00000027410",
+                                            "sender": null,
+                                            "id_shippingorder": "161818",
+                                            "user_name": "m_rafat"
+                                        },
+                                        "actions": []
+                                    }, {
+                                        "fields": {
+                                            "id": 16638,
+                                            "comment": "",
+                                            "comment_time": "7/10/2024 11:19:55 AM",
+                                            "requestnumber": "25-2501-0-00000027410",
+                                            "sender": null,
+                                            "id_shippingorder": "161818",
+                                            "user_name": "m_rafat"
+                                        },
+                                        "actions": []
+                                    }, {
+                                        "fields": {
+                                            "id": 17681,
+                                            "comment": "",
+                                            "comment_time": "7/15/2024 9:31:59 AM",
+                                            "requestnumber": "25-2501-0-00000027410",
+                                            "sender": null,
+                                            "id_shippingorder": "161818",
+                                            "user_name": "m_rafat"
+                                        },
+                                        "actions": []
+                                    }, {
+                                        "fields": {
+                                            "id": 18002,
+                                            "comment": "",
+                                            "comment_time": "7/15/2024 1:40:43 PM",
+                                            "requestnumber": "25-2501-0-00000027410",
+                                            "sender": null,
+                                            "id_shippingorder": "161818",
+                                            "user_name": "m_rafat"
+                                        },
+                                        "actions": []
+                                    }, {
+                                        "fields": {
+                                            "id": 31459,
+                                            "comment": "برجاء اتباع التعليمات الجديده لوصف الحدود و ازاله عرض الشوارع // توضيح موقف استلام الشهادة القديمة من المواطن // ",
+                                            "comment_time": "8/19/2024 10:55:45 AM",
+                                            "requestnumber": "25-2501-0-00000027410",
+                                            "sender": null,
+                                            "id_shippingorder": "161818",
+                                            "user_name": "m_rafat"
+                                        },
+                                        "actions": []
+                                    }, {
+                                        "fields": {
+                                            "id": 87160,
+                                            "comment": "",
+                                            "comment_time": "12/22/2024 3:57:02 PM",
+                                            "requestnumber": "25-2501-0-00000027410",
+                                            "sender": null,
+                                            "id_shippingorder": "161818",
+                                            "user_name": "m_rafat"
+                                        },
+                                        "actions": []
+                                    }, {
+                                        "fields": {
+                                            "id": 100098,
+                                            "comment": "في حاله انه لا يحتاج التعديل يتم تعذر الطلب وارجع بيانات الطلب القديم\t",
+                                            "comment_time": "2/4/2025 8:59:59 AM",
+                                            "requestnumber": "25-2501-0-00000027410",
+                                            "sender": null,
+                                            "id_shippingorder": "161818",
+                                            "user_name": "m_rafat"
+                                        },
+                                        "actions": []
+                                    }]
+                                },
+                                "pagestate": {
+                                    "Page": 1,
+                                    "Sort": []
+                                },
+                                "selectionmode": "None",
+                                "hasrowactions": false,
+                                "datatype": "Guid",
+                                "value": "",
+                                "required": false,
+                                "maxlength": null,
+                                "validation": null,
+                                "validationmessage": null,
+                                "isremotevalidation": false,
+                                "widget": "Table",
+                                "actions": [],
+                                "name": "NewTable3",
+                                "label": "سجل التعليقات لإيدج برو",
+                                "editable": true,
+                                "visible": true,
+                                "scripts": {}
+                            }],
+                            "actions": [],
+                            "scripts": {}
+                        }, {
+                            "name": "NewGroup3",
+                            "editable": true,
+                            "visible": true,
+                            "fields": [{
+                                "idfield": null,
+                                "data": {
+                                    "totalrowcount": 12,
+                                    "pagesize": 15,
+                                    "columns": [{
+                                        "name": "requestnumber",
+                                        "label": "رقم الطلب",
+                                        "datatype": "String",
+                                        "widget": "TextField"
+                                    }, {
+                                        "name": "id_shippingorder",
+                                        "label": "مسلسل الطلب",
+                                        "datatype": "Number",
+                                        "widget": "TextField"
+                                    }, {
+                                        "name": "user_name",
+                                        "label": "اسم المستخدم",
+                                        "datatype": "String",
+                                        "widget": "TextField"
+                                    }, {
+                                        "name": "commant",
+                                        "label": "التعليق",
+                                        "datatype": "String",
+                                        "widget": "TextField"
+                                    }, {
+                                        "name": "cmmant_time",
+                                        "label": "وقت التعليق",
+                                        "datatype": "Timestamp",
+                                        "widget": "TextField"
+                                    }],
+                                    "rows": [{
+                                        "fields": {
+                                            "id": 5809,
+                                            "id_shippingorder": "161818",
+                                            "requestnumber": "25-2501-0-00000027410",
+                                            "commant": "تم التعديل - اللوكيشين صحيح ",
+                                            "cmmant_time": "5/4/2024 11:35:00 AM",
+                                            "commpany": "الماسة",
+                                            "user_name": "masa"
+                                        },
+                                        "actions": []
+                                    }, {
+                                        "fields": {
+                                            "id": 5827,
+                                            "id_shippingorder": "161818",
+                                            "requestnumber": "25-2501-0-00000027410",
+                                            "commant": "تم اعاده توجيه ملف الكاد ",
+                                            "cmmant_time": "5/4/2024 1:50:40 PM",
+                                            "commpany": "الماسة",
+                                            "user_name": "masa"
+                                        },
+                                        "actions": []
+                                    }, {
+                                        "fields": {
+                                            "id": 6502,
+                                            "id_shippingorder": "161818",
+                                            "requestnumber": "25-2501-0-00000027410",
+                                            "commant": "تم اعاده توجيه ملف الكاد \nتم تعديل الحدود الوصفيه طبقا للتعليمات و ازاله اسماء الجيران من وصف الحدود و طبقا للتعليمات هذا التعديل لا يتطلب توحيد مع الطلبات السابقه ",
+                                            "cmmant_time": "5/8/2024 1:36:16 PM",
+                                            "commpany": "الماسة",
+                                            "user_name": "masa"
+                                        },
+                                        "actions": []
+                                    }, {
+                                        "fields": {
+                                            "id": 17254,
+                                            "id_shippingorder": "161818",
+                                            "requestnumber": "25-2501-0-00000027410",
+                                            "commant": "تم تعديل الحدود الوصفيه طبقا للتعليمات و ازاله اسماء الجيران من وصف الحدود و طبقا للتعليمات هذا التعديل لا يتطلب توحيد مع الطلبات السابقه \nلم يتم تغيير اللوكيشن انما تم تحديد العقار خطأ على الخريطة فى الرفع فى اول مرة ",
+                                            "cmmant_time": "7/8/2024 1:13:41 PM",
+                                            "commpany": "الماسة",
+                                            "user_name": "masa"
+                                        },
+                                        "actions": []
+                                    }, {
+                                        "fields": {
+                                            "id": 18824,
+                                            "id_shippingorder": "161818",
+                                            "requestnumber": "25-2501-0-00000027410",
+                                            "commant": "تم تحديد العقار خطأ على الخريطة فى الرفع فى اول مرة وحاليا تم تعديله على الوضع الصحيح",
+                                            "cmmant_time": "7/15/2024 10:43:21 AM",
+                                            "commpany": "الماسة",
+                                            "user_name": "masa"
+                                        },
+                                        "actions": []
+                                    }, {
+                                        "fields": {
+                                            "id": 26760,
+                                            "id_shippingorder": "161818",
+                                            "requestnumber": "25-2501-0-00000027410",
+                                            "commant": "تم التواصل م مع العميل اكثر من مره  هو رفض تسليم الشهاده القديمه وابلعنا انه يحتاج للتعديل ",
+                                            "cmmant_time": "8/18/2024 3:45:52 PM",
+                                            "commpany": "الماسة",
+                                            "user_name": "masa1"
+                                        },
+                                        "actions": []
+                                    }, {
+                                        "fields": {
+                                            "id": 27246,
+                                            "id_shippingorder": "161818",
+                                            "requestnumber": "25-2501-0-00000027410",
+                                            "commant": "تم التواصل م مع العميل اكثر من مره  هو رفض تسليم الشهاده القديمه وابلعنا انه لا يحتاج للتعديل ",
+                                            "cmmant_time": "8/20/2024 2:51:01 PM",
+                                            "commpany": "الماسة",
+                                            "user_name": "masa"
+                                        },
+                                        "actions": []
+                                    }, {
+                                        "fields": {
+                                            "id": 52045,
+                                            "id_shippingorder": "161818",
+                                            "requestnumber": "25-2501-0-00000027410",
+                                            "commant": "تم التواصل م مع العميل اكثر من مره  هو رفض تسليم الشهاده القديمه وابلعنا انه لا يحتاج للتعديل \nتم مطابقة اسم الشارع مع الحد\nتم اتباع التعليمات الجديده لوصف الحدود ",
+                                            "cmmant_time": "12/21/2024 10:13:34 AM",
+                                            "commpany": null,
+                                            "user_name": "masa1"
+                                        },
+                                        "actions": []
+                                    }, {
+                                        "fields": {
+                                            "id": 70564,
+                                            "id_shippingorder": "161818",
+                                            "requestnumber": "25-2501-0-00000027410",
+                                            "commant": " تعذر التعديل وتم ارجع بيانات الطلب القديم",
+                                            "cmmant_time": "3/26/2025 10:15:23 AM",
+                                            "commpany": null,
+                                            "user_name": "masa1"
+                                        },
+                                        "actions": []
+                                    }, {
+                                        "fields": {
+                                            "id": 74919,
+                                            "id_shippingorder": "161818",
+                                            "requestnumber": "25-2501-0-00000027410",
+                                            "commant": "تم تعديل اسم الشارع طبقا للتعليمات الجديده\t",
+                                            "cmmant_time": "4/17/2025 3:53:49 PM",
+                                            "commpany": null,
+                                            "user_name": "masa1"
+                                        },
+                                        "actions": []
+                                    }, {
+                                        "fields": {
+                                            "id": 75498,
+                                            "id_shippingorder": "161818",
+                                            "requestnumber": "25-2501-0-00000027410",
+                                            "commant": "تم تعديل رقم العقار طبقا للعقد المرفق وتم التاكد من العميل + تم ارفاق صور علي الطبيعة",
+                                            "cmmant_time": "4/20/2025 2:34:22 PM",
+                                            "commpany": null,
+                                            "user_name": "masa1"
+                                        },
+                                        "actions": []
+                                    }, {
+                                        "fields": {
+                                            "id": 82584,
+                                            "id_shippingorder": "161818",
+                                            "requestnumber": "25-2501-0-00000027410",
+                                            "commant": "لا يتم تسليم الشهاده ف حالة تعديل رقم العقار طبقا لاخر للتعليمات",
+                                            "cmmant_time": "5/22/2025 3:55:55 PM",
+                                            "commpany": null,
+                                            "user_name": "masa1"
+                                        },
+                                        "actions": []
+                                    }]
+                                },
+                                "pagestate": {
+                                    "Page": 1,
+                                    "Sort": []
+                                },
+                                "selectionmode": "None",
+                                "hasrowactions": false,
+                                "datatype": "String",
+                                "value": "",
+                                "required": false,
+                                "maxlength": null,
+                                "validation": null,
+                                "validationmessage": null,
+                                "isremotevalidation": false,
+                                "widget": "Table",
+                                "actions": [],
+                                "name": "NewTable2",
+                                "label": "سجل تعليقات الشركه علي التعديل",
+                                "editable": true,
+                                "visible": true,
+                                "scripts": {}
+                            }],
+                            "actions": [],
+                            "scripts": {}
+                        }],
+                        "actions": [],
+                        "scripts": {}
+}
+                    
+                    
+                    
+]
+                    
+                    
+                    ,
+                    "actions": [{
+                        "name": "save",
+                        "label": "حفظ",
+                        "template": "ActionTemplate",
+                        "editable": true,
+                        "visible": false,
+                        "help": null,
+                        "controller": "Form",
+                        "action": "save",
+                        "image": null,
+                        "issubmit": true,
+                        "isscriptaction": false,
+                        "parameters": [],
+                        "scripts": {
+                            "visible": "IG.eval(this.form.getItemById('statusss').value() == 'ارسال للشركه' || this.form.getItemById('statusss').value() =='مرفوض من شركه ايدج برو للشركات')"
+                        }
+                    }],
+                    "scripts": {},
+                    "dependentfields": [{
+                        "name": "id_shippingorder",
+                        "dependentfields": ["editcertificateinformation", "status", "NewTable1", "NewTable3", "NewTable2"]
+                    }, {
+                        "name": "requestnumber",
+                        "dependentfields": ["السجل", "status"]
+                    }],
+                    "FormBindingType": 1
+                },
+                "controller": "Form",
+                "workflownavigation": {
+                    "showworkflowlinks": false,
+                    "workflowlinkgroups": []
+                },
+                "node": {
+                    "nodeid": "form2",
+                    "label": "form2",
+                    "controller": "Form",
+                    "action": "Index",
+                    "help": null,
+                    "conditionhelp": null,
+                    "WorkflowTriggers": []
+                },
+                "historynodes": [{
+                    "nodeid": "form2",
+                    "label": "form2",
+                    "controller": "Form",
+                    "action": "Index",
+                    "help": null,
+                    "conditionhelp": null,
+                    "WorkflowTriggers": []
+                }],
+                "Workflow": "raf3_msa7e",
+                "language": "en-US",
+                "isrighttoleft": false,
+                "notification": null,
+                "baseurl": "https://rscapps.edge-pro.com:443/Workflows/",
+                "theme": "FlatTheme",
+                "isdebugenabled": false,
+                "routevalues": {
+                    "workflow": "raf3_msa7e",
+                    "lang": "en-US",
+                    "sessionid": "8d52df62-63db-4547-ac84-3b1e67c2076d",
+                    "tenant": "rsc_v2",
+                    "nodeid": "form2",
+                    "id": "161818"
+                }

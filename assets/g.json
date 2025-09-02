@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "el-massa-consult",
+  "private_key_id": "af0dbe4bbe23bfe5bf78903ed98e02b74a86cd5c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCi4lDHLDDl+tQr\nmCjR+KE3EYSPnhcuap5puuhE4rEauKHx9nGpuGbxsoeN9wc7jV9TltqoswBBDmMM\nJfrrB+reINkj2SaOHn1yExygj8Kh0YvNZip4jUt6oAnN7ozAjlZC3+j7YNTDlEuO\nuUpPLyS5TYNw7osqmQdltt84PidagHLUAxXY2T9FJnkCjqK3wFS6m+TjlENSGn5q\n9gHDRv1WcVkUiFDZFi8U80lMUX76Rg4pP3dfaq7R+XOEpm86WS87FThMadXEgTQF\n8F7T8NP2WWZFNpcNhUiPW6Qi/UAghfc82jnu9ztjGUS54BSBfiJjLk52z55kYv3K\nPzy5iDZlAgMBAAECggEACqb+XWg4cnHq+kbjNIgsEuvkXXgbT//NCGEe25Jvvq2g\nebCCUnUq1le0ocYsBOsD9vWAq1O5ioekVqENPd2wsII5cSy8ZsL7tUAmuSFtuyN3\nHyG1WVj0PLrGqV8WeWlVnt4B4J6+i2PhZR4dC/yrTCsTk4kmNMz5PN+uzYDTFgoB\nvvCZqrMJLV6rA/CnKycKgsP50li5ZruCdl+e3gCbxXFeV9YrDzIm8ElozQM48Gfq\nmumNGw3aweQ2gax4g01LwK30g/91hdZNV8jRIMgbNumwiVMdT46VsWlWJYDchA/W\n+GXh8YJMhl0IwXWSmNg0d4K/u0B887p5qLp5monVwQKBgQDTRhTbBlaNLESq94Qn\n/3SiNpUwEcNIeLytCeLgsnrv6wq+DFsZeV0NFEHPMnCWWNFzApIy8KGwlEB0MK/q\n+fxUzWdFX9vnwv6v4qyVVuWPMcVRc2rfp7ITvWJbUvplpQdoGeQWHMNWY3kHDzNo\nObexwCLRug42X38Wm6Wx9h3Q7QKBgQDFXcSfNZ6JdP5zsi73r3F3ZS1BpGOwspuB\ntQyasnS922KOiUfr6fvm9sHltUr9rXg/tzZnowz59KzohKTLs4hF8VcmiHMUg33J\naytc7KoHi03Ax4sNIQXm0Fv71LqzAYF747eF7tu7YylQCKs8cS3ursx1VLGgJtnJ\nIEG4VgZkWQKBgBQ+uvDiApk0jL/1R+ytRfflUxZwHU5sg2fxcpQlhjJHS5g6huBC\nCPCf6E56ft9pU2i57liDRnstOZ/oqnLR0aQuqp6zONdUkCM6jV8iHI1EL6xGaw9T\nenT5yNsHcIcc8UDAemLEDtPQZGCQzFRIc5nM14lRUttS+1KnR5FuDB1hAoGAShrF\n+71nNFdQPuKVTfx6zwiXMIFnyO2XA+GVxPPib3LTE4+qCINHSNY3wWcLrCoY71t8\nOvd2pNdgoMFFGxLixNg0D8zF4NrqPNlXY8Gcqc59ODf0Fs7iZ2KuVuTt4M5c7sZ2\nnvwrVrWJynomyT/5rhfFvvw44VgVB7Zr1qm+JqkCgYEAosa4sZZnsUtCgbJq0kAJ\n+v3LZnjGBkD/xM6vq4oIJMsAZlhWAEVpgQ62Xdr9gI+ceXVduXwD5wa1GRbA83dW\ncCAYm+vJLv9rBMax3GlwWtCQ00Vv5usgaeMX0ubM+6ACDNQYLaNY70h7W1nuSNq/\nbwYX6J5ul9Lo3EzIUDobAr8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "el-massa-consult@el-massa-consult.iam.gserviceaccount.com",
+  "client_id": "100284679774361778666",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/el-massa-consult%40el-massa-consult.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

@@ -1,0 +1,75 @@
+{"submodel":{"name":"NewForm1","editable":true,"tabs":
+[
+    {
+        "name":"NewTabPage1","editable":true,"visible":true,"groups":
+     [
+        {"name":"NewGroup1","editable":true,"visible":true,"fields":
+        [
+            {"fields"
+                [
+                {"datatype":"String","value":"25-2502-0-00000006557","listofvalues":null,"required":false,"maxlength":null,"validation":null,"validationmessage":null,"isremotevalidation":false,"widget":"TextField","actions":[],"name":"requestnumber","label":"رقم الطلب","editable":false,"visible":true,"scripts":{}},
+                {"datatype":"Number","value":"226424","listofvalues":null,"required":false,"maxlength":null,"validation":null,"validationmessage":null,"isremotevalidation":false,"widget":"TextField","actions":[],"name":"id_shippingorder","label":"مسلسل طلب التعديل","editable":false,"visible":true,"scripts":{}}
+                ],
+                "name":"NewSingleRow1","label":"NewSingleRow1","editable":true,"visible":true,"scripts":{}
+            },
+            {
+                "datatype":"String","value":"تعديل الشياخه الى شياخة الحمراء الثانية + تعديل رقم الوحدة فعليا الى رقم 1","listofvalues":null,"required":false,"maxlength":null,"validation":null,"validationmessage":null,"isremotevalidation":false,"widget":"TextArea","actions":[],"name":"editcertificateinformation","label":"التعديل","editable":false,"visible":true,"scripts":{}
+            },
+            {
+             "idfield":null,"data":
+             {
+                "totalrowcount":2,"pagesize":15,"columns":
+                [
+                {"name":"id_shippingorder","label":"المسلسل","datatype":"Number","widget":"TextField"},
+                {"name":"editcertificateinformation","label":"التعديل المطلوب","datatype":"String","widget":"TextField"},
+                {"name":"addeddate","label":"تاريخ تسجيل الطلب","datatype":"String","widget":"TextField"},
+                {"name":"print_statuss","label":"حالة الطباعة","datatype":"String","widget":"TextField"},
+                {"name":"statuss","label":"الحالة التعديل","datatype":"String","widget":"TextField"},
+                {"name":"status_date","label":"تاريخ الارسال","datatype":"Datetime","widget":"TextField"}
+                ],
+            "rows":[
+                {"fields":{"id_shippingorder":"204370","requestid":7005,"requestnumber":"25-2502-0-00000006557","name":"مصطفى عبد الستار محروص محمد ","company_id":48,"paymenttime":"2024-05-20T19:13:25.406Z","paidstatus":"مدفوع","numberofcopies":1.0,"extracopiesprice":250.0,"orderstatus":1,"editcertificateinformation":"تعديل الشياخه الى الشياخه السابعه + تعديل رقم الوحدة الفعلي الى رقم 1 ","edit_status":"تعديل","companyname":"edgeCo4","comment":null,"comment_time":"2025-06-11T09:17:32.487324Z","status":31,"edit_employee":"عائشة جميل","done":"تم التوصيل","statuss":"مرفوض للشركات","status_date":"2024-06-30T21:00:00Z","print_status":null,"print_statuss":"لم يتم الطباعة","print_date":null,"recert":null,"recertt":"لم يتم الشحن","tofedex":null,"unittype":"وحدة دوبلكس","overlap_status":null,"overlap_statuss":"لا يوجد تداخل","request_count":2},"actions":[]
+                },
+                {"fields":{"id_shippingorder":"226424","requestid":7005,"requestnumber":"25-2502-0-00000006557","name":"مصطفى عبد الستار محروص محمد ","company_id":48,"paymenttime":"2024-08-27T11:28:07.873Z","paidstatus":"مدفوع","numberofcopies":1.0,"extracopiesprice":250.0,"orderstatus":1,"editcertificateinformation":"تعديل الشياخه الى شياخة الحمراء الثانية + تعديل رقم الوحدة فعليا الى رقم 1","edit_status":"تعديل","companyname":"edgeCo4","comment":null,"comment_time":"2024-09-01T04:50:49.446041Z","status":31,"edit_employee":"عائشة جميل","done":"تم التوصيل","statuss":"مرفوض للشركات","status_date":"","print_status":null,"print_statuss":"لم يتم الطباعة","print_date":null,"recert":null,"recertt":"لم يتم الشحن","tofedex":null,"unittype":"وحدة دوبلكس","overlap_status":null,"overlap_statuss":"لا يوجد تداخل","request_count":2},"actions":[]
+                }
+                ]
+            },"pagestate":{"Page":1,"Sort":[]},"selectionmode":"None","hasrowactions":false,"datatype":"String","value":"","required":false,"maxlength":null,"validation":null,"validationmessage":null,"isremotevalidation":false,"widget":"Table","actions":[],"name":"السجل","label":"السجل","editable":true,"visible":true,"scripts":{}
+                
+            },
+            {"datatype":"Number","value":"31","listofvalues":{"fieldnames":["Key","Value"],"items":[{"fields":{"Key":"22","Value":"تم الارسال من الشركه"}}]},"required":false,"maxlength":null,"validation":null,"validationmessage":null,"isremotevalidation":false,"widget":"Radio","actions":[],"name":"status","label":"الحالة التعديل","editable":true,"visible":true,"scripts":{}},
+            {"datatype":"String","value":"","listofvalues":null,"required":false,"maxlength":null,"validation":null,"validationmessage":null,"isremotevalidation":false,"widget":"TextArea","actions":[],"name":"comment_send","label":"سبب الارسال الي الشركه","editable":false,"visible":false,"scripts":{"visible":"IG.eval(this.form.getItemById('status').value() === '1' || this.form.getItemById('status').value() === '22' || this.form.getItemById('status').value() === '31' )"}},
+            {"datatype":"String","value":"","listofvalues":null,"required":false,"maxlength":null,"validation":null,"validationmessage":null,"isremotevalidation":false,"widget":"TextArea","actions":[],"name":"receive_comment","label":"تعليق الشركه علي التعديل","editable":true,"visible":true,"scripts":{}}
+        ],"actions":[],"scripts":{}
+        },
+        {"name":"NewGroup5","editable":true,"visible":true,"fields":
+        [
+            {"multiple":false,"fileextension":"jpg,png","datatype":"File","value":"","listofvalues":null,"required":false,"maxlength":null,"validation":null,"validationmessage":null,"isremotevalidation":false,"widget":"FilePicker","actions":[],"name":"attach","label":"صورة الرفض","editable":true,"visible":true,"scripts":{}}
+        ],"actions":[],"scripts":{}
+        }
+     ],
+     "actions":[],"scripts":{}
+    },
+  {"name":"NewTabPage2","editable":true,"visible":true,"groups":
+    [
+        {"name":"NewGroup2","editable":false,"visible":true,"fields":[
+            {
+                "idfield":null,"data":
+                {"totalrowcount":1,"pagesize":15,"columns":[{"name":"requestnumber","label":"رقم الطلب","datatype":"String","widget":"TextField"},{"name":"comment","label":"تعديل الاداره","datatype":"String","widget":"TextField"},{"name":"id_shippingorder","label":"مسلسل التعديل","datatype":"String","widget":"TextField"},{"name":"comment_time","label":"وقت الاضافه","datatype":"String","widget":"TextField"}]
+                    ,"rows":
+                    [
+                        {"fields":{"id":44631,"requestnumber":"25-2502-0-00000006557","sender":null,"id_shippingorder":"226424","user_name":"allaharess","comment":"برجاء توحيد الوصف 25-2502-3-00000024692\t 25-2502-3-00000021773\t 25-2502-3-00000024698\t25-2502-0-00000006534\t25-2502-0-00000006580\t25-2502-3-00000024695\t25-2502-0-00000006557\t","comment_time":"9/1/2024 2:50:49 PM","refusecount":null},"actions":[]}
+                    ]
+                },
+                "pagestate":{"Page":1,"Sort":[]},"selectionmode":"None","hasrowactions":false,"datatype":"String","value":"","required":false,"maxlength":null,"validation":null,"validationmessage":null,"isremotevalidation":false,"widget":"Table","actions":[],"name":"NewTable1","label":"سجل التعليقات للاداره","editable":true,"visible":true,"scripts":{}
+            }
+         ],"actions":[],"scripts":{}},
+        {"name":"NewGroup4","editable":true,"visible":true,"fields":[{"idfield":null,"data":{"totalrowcount":1,"pagesize":15,"columns":[{"name":"requestnumber","label":"رقم الطلب","datatype":"String","widget":"TextField"},{"name":"id_shippingorder","label":"المسلسل","datatype":"String","widget":"TextField"},{"name":"comment_time","label":"الوقت","datatype":"String","widget":"TextField"},{"name":"comment","label":"التعليق","datatype":"String","widget":"TextField"}],"rows":[{"fields":{"id":34963,"comment":"برجاء توحيد الوصف 25-2502-3-00000024692\t 25-2502-3-00000021773\t 25-2502-3-00000024698\t25-2502-0-00000006534\t25-2502-0-00000006580\t25-2502-3-00000024695\t25-2502-0-00000006557\t","comment_time":"9/2/2024 12:35:48 AM","requestnumber":"25-2502-0-00000006557","sender":null,"id_shippingorder":"226424","user_name":"m_rafat"},"actions":[]}]},"pagestate":{"Page":1,"Sort":[]},"selectionmode":"None","hasrowactions":false,"datatype":"Guid","value":"","required":false,"maxlength":null,"validation":null,"validationmessage":null,"isremotevalidation":false,"widget":"Table","actions":[],"name":"NewTable3","label":"سجل التعليقات لإيدج برو","editable":true,"visible":true,"scripts":{}}],
+        "actions":[],"scripts":{}},
+        {"name":"NewGroup3","editable":true,"visible":true,"fields":[{"idfield":null,"data":{"totalrowcount":0,"pagesize":15,"columns":[{"name":"requestnumber","label":"رقم الطلب","datatype":"String","widget":"TextField"},{"name":"id_shippingorder","label":"مسلسل الطلب","datatype":"Number","widget":"TextField"},{"name":"user_name","label":"اسم المستخدم","datatype":"String","widget":"TextField"},{"name":"commant","label":"التعليق","datatype":"String","widget":"TextField"},{"name":"cmmant_time","label":"وقت التعليق","datatype":"Timestamp","widget":"TextField"}],"rows":[]},"pagestate":{"Page":1,"Sort":[]},"selectionmode":"None","hasrowactions":false,"datatype":"String","value":"","required":false,"maxlength":null,"validation":null,"validationmessage":null,"isremotevalidation":false,"widget":"Table","actions":[],"name":"NewTable2","label":"سجل تعليقات الشركه علي التعديل","editable":true,"visible":true,"scripts":{}}],
+        "actions":[],"scripts":{}}
+    
+    ],
+        "actions":[],"scripts":{}
+  }
+],
+"actions":[{"name":"save","label":"حفظ","template":"ActionTemplate","editable":true,"visible":false,"help":null,"controller":"Form","action":"save","image":null,"issubmit":true,"isscriptaction":false,"parameters":[],"scripts":{"visible":"IG.eval(this.form.getItemById('statusss').value() == 'ارسال للشركه' || this.form.getItemById('statusss').value() =='مرفوض من شركه ايدج برو للشركات')"}}],"scripts":{},"dependentfields":[{"name":"id_shippingorder","dependentfields":["editcertificateinformation","status","NewTable1","NewTable3","NewTable2"]},{"name":"requestnumber","dependentfields":["السجل","status"]}],"FormBindingType":1},"controller":"Form","workflownavigation":{"showworkflowlinks":false,"workflowlinkgroups":[]},"node":{"nodeid":"form2","label":"form2","controller":"Form","action":"Index","help":null,"conditionhelp":null,"WorkflowTriggers":[]},"historynodes":[{"nodeid":"form2","label":"form2","controller":"Form","action":"Index","help":null,"conditionhelp":null,"WorkflowTriggers":[]}],"Workflow":"raf3_msa7e","language":"en-US","isrighttoleft":false,"notification":null,"baseurl":"https://rscapps.edge-pro.com:443/Workflows/","theme":"FlatTheme","isdebugenabled":false,"routevalues":{"workflow":"raf3_msa7e","lang":"en-US","sessionid":"275f48ef-ad3c-42b9-93f0-dee1040f7003","tenant":"rsc_v2","nodeid":"form2","id":"226424"}}; IG.formSettings = IG.WorkflowContainer.submodel;
